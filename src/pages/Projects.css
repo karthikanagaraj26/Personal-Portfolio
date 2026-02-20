@@ -1,0 +1,117 @@
+.projects {
+  padding-top: 120px;
+}
+
+.section-desc {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-top: var(--space-sm);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-xl);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.project-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-badges {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.project-type-badge {
+  padding: 4px 12px;
+  border: 1px solid;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.project-tag-badge {
+  padding: 4px 12px;
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.project-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.project-desc {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.project-outcome {
+  padding: var(--space-md);
+  background: rgba(59, 130, 246, 0.05);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.outcome-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--purple-500);
+  margin-bottom: 4px;
+  display: block;
+}
+
+.outcome-text {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.project-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.project-tool {
+  padding: 4px 10px;
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

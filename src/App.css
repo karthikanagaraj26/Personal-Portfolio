@@ -1,0 +1,52 @@
+.app {
+  min-height: 100vh;
+  position: relative;
+}
+
+.main-content {
+  min-height: 100vh;
+}
+
+/* Persistent background shapes */
+.bg-shapes {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.bg-shape {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.08;
+}
+
+.shape-1 {
+  width: 600px;
+  height: 600px;
+  background: var(--purple-300);
+  top: -200px;
+  right: -200px;
+  animation: float 15s ease-in-out infinite;
+}
+
+.shape-2 {
+  width: 400px;
+  height: 400px;
+  background: var(--blue-300);
+  bottom: -100px;
+  left: -100px;
+  animation: float 18s ease-in-out infinite reverse;
+}
+
+.shape-3 {
+  width: 300px;
+  height: 300px;
+  background: var(--purple-200);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: float 12s ease-in-out infinite 3s;
+}

@@ -1,0 +1,65 @@
+🔹 Basic Setup
+
+ Add Profile Name & Tagline
+
+ Upload Profile Photo
+
+ Add Short Bio / Intro
+
+🔹 About Page
+
+ Write Personal Introduction
+
+ Add Education Details
+
+ Add Experience / Internship Details
+
+ Add Career Objective
+
+🔹 Skills Section
+
+ List Technical Skills
+
+ Add Tools & Technologies
+
+ Add Soft Skills
+
+🔹 Projects Page
+
+ Add Project Titles
+
+ Add Project Descriptions
+
+ Attach Project Links / GitHub
+
+ Add Project Images / Screenshots
+
+🔹 Contact Page
+
+ Add Email ID
+
+ Add Phone Number
+
+ Add LinkedIn Profile
+
+ Add GitHub / Portfolio Links
+
+🔹 Design & Theme
+
+ Apply Purple / Blue Light Theme
+
+ Add Animations (fade, hover, slide)
+
+ Ensure Responsive Layout
+
+ Check Spacing & Typography Consistency
+
+🔹 Final Generation
+
+ Validate All Sections Completed
+
+ Enable “Generate Portfolio” Button
+
+ Preview Final Portfolio Pages
+
+ Export / Deploy Portfolio
